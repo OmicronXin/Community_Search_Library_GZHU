@@ -1,7 +1,7 @@
 # Community_Search_Library
 A comprehensive library/toolbox for the community detection problem. 
 
-# api_truss.cpp
+# api_core_truss.cpp
 Shared-memory Graph Truss Decomposition and k-core decomposition on undirected graph that output the subgraphs with maximal k.
 The PKT k-core decomposition algorithm appears in "Parallel k-core Decomposition on Multicore Platforms", Humayun Kabir and Kamesh Madduri, IPDPSW 2017, and was used to produce the results in the paper. 
 
@@ -9,7 +9,7 @@ Link: https://ieeexplore.ieee.org/document/7965211/citations?tabFilter=papers
 
 ## Compiling the program:
     
-    $[username]$g++ api_truss.cpp -o api_truss -std=gnu++0x -O3 -openmp
+    $[username]$g++ api_core_truss.cpp -o api_core_truss -std=gnu++0x -O3 -openmp
     
 ## Input:
 
@@ -19,7 +19,7 @@ Link: https://ieeexplore.ieee.org/document/7965211/citations?tabFilter=papers
 ## Execution:
 
     The program can be executed using the following command:
-    $[username]$ ./api_truss <file-path>
+    $[username]$ ./api_core_truss <file-path>
     
 ## Output:
 
@@ -28,8 +28,8 @@ Link: https://ieeexplore.ieee.org/document/7965211/citations?tabFilter=papers
 
 ## Demo:
 
-    $[username]$g++ api_truss.cpp -o api_truss -std=gnu++0x -O3 -openmp
-    $[username]$./api_truss example.txt
+    $[username]$g++ api_core_truss.cpp -o api_truss -std=gnu++0x -O3 -openmp
+    $[username]$./api_core_truss example.txt
     
 ## Support:
 
