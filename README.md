@@ -89,8 +89,37 @@ Print the related statistics of the given subgraphs to the console.
     $[username]$./scores /subgraphs example.txt
     
 
+# **extractDBLP.cpp**
 
+Extract information from [DBLP.xml](https://dblp.uni-trier.de/xml/). DBLP is a network of scholars in the field of computer science. The network is a classic example of social network and has been studied by a lot of researchers. This program extracts relevent data from xml file.
 
+## Compiling the program:
+    
+    $[username]$g++ extractDBLP.cpp -o extractDBLP -std=gnu++0x -O3 -openmp
+    
+## Input:
+The program only support the data with identical format as [DBLP.xml](https://dblp.uni-trier.de/xml/).
+Upon the execution of the program, three parameters will be enter sequentially:
+ 1.The last year of the data to be included
+ 2.Number of years to be included
+ 3.Minimum requirement of cooperated papers between two authors to be counted as "neighbors" in the graph
+
+## Execution:
+
+The program can be executed using the following command:
+
+    $[username]$ ./extractDBLP dblp.xml
+    
+## Output:
+
+6 text files:
+  - dblp_authors: All the authors in the network.
+  - dblp_papers：All the papers in the network.
+  - dblp_au_paper_: paper-author relations
+  - dblp_au_relation: author-author relations
+  - dblp_authors_active: active authors
+  - dblp_au_papernum: numbers of papers for each author
+  
 # To do:
 
 - [x] Refine README.md
