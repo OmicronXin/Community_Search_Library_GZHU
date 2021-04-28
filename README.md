@@ -62,7 +62,13 @@ Print the related statistics of the given subgraphs to the console.
     $[username]$./scores /subgraphs example.txt
     
     
-    
+# To do:
+
+- [x] Refine README.md
+- [ ] Support more input file formats 
+- [ ] Better graph visualization
+- [ ] A more compact Library
+
 # Support:
 
     Please email Xintong Wang (omicronwang@gmail.com) and Haicheng Guo(mcd3team@gmail.com).
