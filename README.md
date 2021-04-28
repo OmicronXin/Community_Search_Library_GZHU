@@ -17,13 +17,14 @@ is given in [example.txt](https://github.com/OmicronXin/Community_Search_Library
     
 ## Execution:
 
-    The program can be executed using the following command:
+The program can be executed using the following command:
+
     $[username]$ ./api_core_truss <file-path>
     
 ## Output:
 
-    Two text files kmaxcore.txt and kmaxtruss.txt whcih contains maximal k-core and maximal k-truss respectively. 
-    The format of output files are consistent with the input file.
+Two text files kmaxcore.txt and kmaxtruss.txt whcih contains maximal k-core and maximal k-truss respectively. 
+The format of output files are consistent with the input file.
 
 ## Demo:
 
@@ -32,7 +33,7 @@ is given in [example.txt](https://github.com/OmicronXin/Community_Search_Library
     
 # scores.cpp
 
-    Print related statistics of the given subgraphs, which can be used to assess the quality of found community. 
+Print related statistics of the given subgraphs, which can be used to assess the quality of found community. 
 
 ## Compiling the program:
     
@@ -40,19 +41,19 @@ is given in [example.txt](https://github.com/OmicronXin/Community_Search_Library
     
 ## Input:
 
-    The input to the program is the folder containing the subgraphs kmaxtruss and kmaxcore, and a text file containing the original graph. 
-    The file should contain an undirected graph and vertex index should start from 0. Next M lines contain the M edges. 
-    Two ends of the edge are separated by space. An example graph is given in [example.txt](https://github.com/OmicronXin/Community_Search_Library_GZHU/files/6389103/example.txt). Each unordered pair of 
-    vertices has been stored twice. i.e. <u> <v> and <v> <u>. 
+The input to the program is the folder containing the subgraphs kmaxtruss and kmaxcore, and a text file containing the original graph. 
+The file should contain an undirected graph and vertex index should start from 0. Next M lines contain the M edges. 
+Two ends of the edge are separated by space. An example graph is given in [example.txt](https://github.com/OmicronXin/Community_Search_Library_GZHU/files/6389103/example.txt). Each unordered pair of 
+vertices has been stored twice. i.e. <u> <v> and <v> <u>. 
     
 ## Execution:
 
-    The program can be executed using the following command:
+The program can be executed using the following command:
     $[username]$ ./scores <subgraph-folder-path> <original-file-path>
     
 ## Output:
 
-    Print the related statistics of the given subgraphs to the console.
+Print the related statistics of the given subgraphs to the console.
 
 ## Demo:
 
