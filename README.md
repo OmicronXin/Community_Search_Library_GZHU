@@ -32,6 +32,33 @@ The format of output files are consistent with the input file.
     $[username]$g++ api_core_truss.cpp -o api_truss -std=gnu++0x -O3 -openmp
     $[username]$./api_core_truss example.txt
     
+    
+# **densest_subgraph.cpp**
+
+Find the subgraph with highest average degree.
+
+## Compiling the program:
+    
+    $[username]$g++ densest_subgraph.cpp -o densest_subgraph -std=gnu++0x -O3 -openmp
+    
+## Input:
+Same as 'api_core_truss.cpp'.
+
+## Execution:
+
+The program can be executed using the following command:
+
+    $[username]$ ./scores <subgraph-folder-path> <original-file-path>
+    
+## Output:
+
+A text file densest_subgraph.txt, with the same format as the input file.
+
+## Demo:
+
+    $[username]$g++ densest_subgraph.cpp -o densest_subgraph -std=gnu++0x -O3 -openmp
+    $[username]$./densest_subgraph example.txt
+    
 # **scores.cpp**
 
 Print related statistics of the given subgraphs, which can be used to assess the quality of found community. 
@@ -63,7 +90,9 @@ Print the related statistics of the given subgraphs to the console.
     $[username]$g++ scores.cpp -o scores -std=gnu++0x -O3 -openmp
     $[username]$./scores /subgraphs example.txt
     
-    
+
+
+
 # To do:
 
 - [x] Refine README.md
