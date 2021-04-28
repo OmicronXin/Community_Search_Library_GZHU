@@ -31,7 +31,7 @@ The format of output files are consistent with the input file.
     $[username]$g++ api_core_truss.cpp -o api_truss -std=gnu++0x -O3 -openmp
     $[username]$./api_core_truss example.txt
     
-# -----scores.cpp-----
+# **scores.cpp**
 
 Print related statistics of the given subgraphs, which can be used to assess the quality of found community. 
 
