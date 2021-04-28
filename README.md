@@ -42,7 +42,7 @@ Find the subgraph with highest average degree.
     $[username]$g++ densest_subgraph.cpp -o densest_subgraph -std=gnu++0x -O3 -openmp
     
 ## Input:
-Same as 'api_core_truss.cpp'.
+Same as `api_core_truss.cpp`.
 
 ## Execution:
 
@@ -70,9 +70,7 @@ Print related statistics of the given subgraphs, which can be used to assess the
 ## Input:
 
 The input to the program is the folder containing the subgraphs kmaxtruss and kmaxcore, and a text file containing the original graph. 
-The file should contain an undirected graph and vertex index should start from 0. Next M lines contain the M edges. 
-Two ends of the edge are separated by space. An example graph is given in [example.txt](https://github.com/OmicronXin/Community_Search_Library_GZHU/files/6389103/example.txt). Each unordered pair of 
-vertices has been stored twice. i.e. <u> <v> and <v> <u>. 
+Text file format should consist with format of `api_core_truss.cpp`.
     
 ## Execution:
 
