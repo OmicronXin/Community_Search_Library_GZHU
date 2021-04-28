@@ -69,7 +69,8 @@ Print the related statistics of the given subgraphs to the console.
 - [x] Refine README.md
 - [ ] Support more input file formats 
 - [ ] Better graph visualization
-- [ ] A more compact Library
+- [ ] A more compact library
+- [ ] Enrich the library with other functionalities
 
 # Support:
 
