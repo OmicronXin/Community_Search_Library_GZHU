@@ -100,9 +100,9 @@ Extract information from [DBLP.xml](https://dblp.uni-trier.de/xml/). DBLP is a n
 ## Input:
 The program only support the data with identical format as [DBLP.xml](https://dblp.uni-trier.de/xml/).
 Upon the execution of the program, three parameters will be enter sequentially:
- 1.The last year of the data to be included
- 2.Number of years to be included
- 3.Minimum requirement of cooperated papers between two authors to be counted as "neighbors" in the graph
+ 1. The last year of the data to be included
+ 2. Number of years to be included
+ 3. Minimum requirement of cooperated papers between two authors to be counted as "neighbors" in the graph
 
 ## Execution:
 
