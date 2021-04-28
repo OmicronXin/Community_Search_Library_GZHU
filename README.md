@@ -24,7 +24,7 @@ The program can be executed using the following command:
     
 ## Output:
 
-Two text files kmaxcore.txt and kmaxtruss.txt whcih contains maximal k-core and maximal k-truss respectively. 
+Two text files kmaxcore.txt and kmaxtruss.txt which contains maximal k-core and maximal k-truss respectively. 
 The format of output files are consistent with the input file.
 
 ## Demo:
