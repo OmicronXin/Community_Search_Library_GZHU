@@ -3,9 +3,8 @@ A comprehensive library/toolbox for the community detection problem.
 
 # api_core_truss.cpp
 Shared-memory Graph Truss Decomposition and k-core decomposition on undirected graph that output the subgraphs with maximal k.
-The PKT k-core decomposition algorithm appears in "Parallel k-core Decomposition on Multicore Platforms", Humayun Kabir and Kamesh Madduri, IPDPSW 2017, and was used to produce the results in the paper. 
+The PKT k-core decomposition algorithm appears in [Parallel k-core Decomposition on Multicore Platforms](https://ieeexplore.ieee.org/document/7965211/citations?tabFilter=papers), Humayun Kabir and Kamesh Madduri, IPDPSW 2017, and was used to produce the results in the paper. 
 
-Link: https://ieeexplore.ieee.org/document/7965211/citations?tabFilter=papers
 
 ## Compiling the program:
     
