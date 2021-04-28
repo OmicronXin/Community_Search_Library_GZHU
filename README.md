@@ -49,6 +49,7 @@ vertices has been stored twice. i.e. <u> <v> and <v> <u>.
 ## Execution:
 
 The program can be executed using the following command:
+
     $[username]$ ./scores <subgraph-folder-path> <original-file-path>
     
 ## Output:
